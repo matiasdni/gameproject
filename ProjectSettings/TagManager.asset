@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - PickUp
+  - JumpPad
+  - Enemy
+  - Bullet
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -12,7 +16,7 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

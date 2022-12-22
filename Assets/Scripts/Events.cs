@@ -3,22 +3,11 @@ using UnityEngine;
 
 public class Events : MonoBehaviour
 {
-    public void PlayGame()
-    {
-        
+    public void PlayGame() {
+        SceneManager.LoadScene("Shooter");
     }
 
-    public void FreePlay() {
-        SceneManager.LoadSceneAsync("MiniGame");
-    }
     public void ReplayGame() {
-        SceneManager.LoadScene("MiniGame");
-    }
-
-    public void QuitToMainMenu() {
-        SceneManager.LoadScene("MainMenu");
-    }
-    public void QuitGame() {
-        Application.Quit();
+        SceneManager.LoadScene("Shooter");
     }
 }
